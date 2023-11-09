@@ -1,0 +1,43 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: #12101d;
+    font-family: 'Exo 2', sans-serif;
+    overflow-x: hidden;
+}
+.products {
+    margin: 100px 0px 0px 0px ;
+}
+.card {
+    margin-bottom: 30px;
+    background-color: #12101d;
+    border: 1px gray solid;
+    border-radius: 0px;
+}
+.overlay {
+    position: relative;
+    left: 0px;
+    top: 0px;
+    background-color: rgba(0, 0, 0, 0.493);
+}
+.box, .box2 {
+    position: absolute;
+    min-width: 300px;
+    height: auto;
+    border-radius: 8px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #f3efef;
+    opacity: 0;
+    transition: 0.5s;
+}
+.box2 {
+    transform: translate(-50%, 80%);
+}
+[type] {
+    margin: 20px 75px;
+}
